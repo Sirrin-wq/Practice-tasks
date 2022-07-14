@@ -2,6 +2,9 @@ package tasks;
 
 import java.util.Scanner;
 
+/*
+ * Guessing game with a range from -100 to 100
+ */
 public class HiLo {
 
 	public static void main(String[] args) {
