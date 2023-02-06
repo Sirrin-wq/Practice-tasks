@@ -1,11 +1,11 @@
-package arrays;
+package tms.arrays;
 
 import java.util.Scanner;
 
 /*
-Calculate the sum of even elements above the side diagonal(inclusive).
+Display odd elements under the main diagonal(inclusive).
  */
-public class Task04 {
+public class Task02 {
     public static void main(String[] args) {
         int size;
         Scanner scan = new Scanner(System.in);
@@ -26,13 +26,15 @@ public class Task04 {
         System.out.println("----------------------");
 
         //Solution
-        int sum = 0;
-        for (int i = 0, k = arr.length; i < arr.length; i++, k--) {
-            for (int j = 0; j < k; j++) {
-                sum += arr[i][j];
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                if (j <= i) {
+                    if (arr[i][j] % 2 == 1) {
+                        System.out.printf("%d ", arr[i][j]);
+                    }
+                }
             }
         }
-        System.out.println("The sum of the side diagonal elements and above is " + sum);
 
     }
 }

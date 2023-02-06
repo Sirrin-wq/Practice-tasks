@@ -1,4 +1,4 @@
-package tasks;
+package tms;
 
 import java.util.Scanner;
 

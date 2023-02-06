@@ -1,4 +1,4 @@
-package arrays;
+package tms.arrays;
 
 import java.util.Random;
 import java.util.Scanner;

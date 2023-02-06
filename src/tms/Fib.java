@@ -1,4 +1,4 @@
-package tasks;
+package tms;
 
 /*
  * Shows a certain element from the fibonacci sequence

@@ -1,1 +1,1 @@
-# Random practice tasks
+# Practice tasks from books, courses, and coding platforms

@@ -1,4 +1,4 @@
-package tasks;
+package tms;
 
 /*
  * Reverses words in the sentence without changing their order 
